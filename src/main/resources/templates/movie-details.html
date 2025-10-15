@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${movie.movieName} + ' - Movie Details'">Movie Details</title>
+    <link rel="stylesheet" th:href="@{/css/movie-details.css}">
+</head>
+<body>
+    <div class="container">
+        <div class="movie-details">
+            <div class="movie-header">
+                <div class="movie-icon" th:text="${movieIcon}">🎬</div>
+                <h1 class="movie-title" th:text="${movie.movieName}">Movie Title</h1>
+            </div>
+            
+            <div class="movie-info">
+                <div class="info-item">
+                    <span class="info-label">Director</span>
+                    <span class="info-value" th:text="${movie.director}">Director</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Year</span>
+                    <span class="info-value" th:text="${movie.year}">Year</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Genre</span>
+                    <span class="info-value" th:text="${movie.genre}">Genre</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Duration</span>
+                    <span class="info-value" th:text="${movie.duration} + ' minutes'">Duration</span>
+                </div>
+            </div>
+            
+            <div class="rating-section">
+                <h3>Rating</h3>
+                <div>
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-score" th:text="${#numbers.formatDecimal(movie.imdbRating, 1, 1)} + '/5'">5.0/5</span>
+                </div>
+            </div>
+            
+            <div class="description">
+                <h3>Description</h3>
+                <p th:text="${movie.description}">Movie description</p>
+            </div>
+            
+            <div class="reviews-section" th:if="${not #lists.isEmpty(allReviews)}">
+                <h3>Customer Reviews</h3>
+                <div class="review" th:each="review : ${allReviews}">
+                    <div class="review-header">
+                        <div class="review-avatar" th:text="${review.avatarEmoji}">👨</div>
+                        <div class="review-user" th:text="${review.userName}">User</div>
+                        <div class="review-rating">★★★★★ <span th:text="${#numbers.formatDecimal(review.rating, 1, 1)}">5.0</span></div>
+                    </div>
+                    <div class="review-comment" th:text="${review.comment}">Review comment</div>
+                </div>
+            </div>
+            
+            <a th:href="@{/movies}" class="back-button">← Back to Movies</a>
+        </div>
+    </div>
+</body>
+</html>

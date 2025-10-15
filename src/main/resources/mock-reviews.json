@@ -1,0 +1,62 @@
+{
+  "1": [
+    {"userName": "MovieBuff87", "avatarEmoji": "👨", "rating": 5.0, "comment": "Absolutely incredible storytelling. The friendship between Andy and Red is beautifully portrayed."},
+    {"userName": "CinemaLover", "avatarEmoji": "👩", "rating": 4.5, "comment": "A masterpiece that gets better with every viewing. Tim Robbins and Morgan Freeman are phenomenal."},
+    {"userName": "FilmCritic99", "avatarEmoji": "🧔", "rating": 5.0, "comment": "Perfect blend of hope and despair. One of the greatest films ever made."}
+  ],
+  "2": [
+    {"userName": "ClassicFilmFan", "avatarEmoji": "👴", "rating": 5.0, "comment": "Coppola's masterpiece. Brando's performance is legendary."},
+    {"userName": "MovieMaven", "avatarEmoji": "👩‍🦳", "rating": 4.5, "comment": "The family dynamics and power struggles are brilliantly crafted."},
+    {"userName": "VintageViewer", "avatarEmoji": "👨‍🦲", "rating": 5.0, "comment": "An offer you can't refuse. Timeless storytelling at its finest."}
+  ],
+  "3": [
+    {"userName": "SuperheroFan", "avatarEmoji": "🦸", "rating": 5.0, "comment": "Heath Ledger's Joker is absolutely terrifying and brilliant."},
+    {"userName": "ActionJunkie", "avatarEmoji": "💪", "rating": 4.5, "comment": "Nolan elevated the superhero genre to new heights. Dark and gripping."},
+    {"userName": "ComicBookGuy", "avatarEmoji": "🤓", "rating": 5.0, "comment": "The best Batman movie ever made. Perfect balance of action and psychology."}
+  ],
+  "4": [
+    {"userName": "TarantinoFan", "avatarEmoji": "🕴️", "rating": 4.5, "comment": "Brilliant non-linear storytelling. Every scene is quotable."},
+    {"userName": "IndieFilmLover", "avatarEmoji": "🎭", "rating": 5.0, "comment": "Tarantino's dialogue is pure poetry. Samuel L. Jackson is incredible."},
+    {"userName": "CultClassicFan", "avatarEmoji": "😎", "rating": 4.5, "comment": "Royale with cheese! This movie changed cinema forever."}
+  ],
+  "5": [
+    {"userName": "HeartWarming", "avatarEmoji": "❤️", "rating": 4.0, "comment": "Tom Hanks delivers an unforgettable performance. Life is like a box of chocolates indeed."},
+    {"userName": "FamilyMovieFan", "avatarEmoji": "👨‍👩‍👧‍👦", "rating": 4.5, "comment": "A beautiful journey through American history. Makes you laugh and cry."},
+    {"userName": "FeelGoodVibes", "avatarEmoji": "😊", "rating": 4.0, "comment": "Inspiring and touching. Forrest's innocence is both funny and profound."}
+  ],
+  "6": [
+    {"userName": "SciFiGeek", "avatarEmoji": "🚀", "rating": 4.5, "comment": "Mind-bending masterpiece. The dream within a dream concept is brilliant."},
+    {"userName": "NolanFanatic", "avatarEmoji": "🧠", "rating": 5.0, "comment": "Inception redefined what cinema could achieve. Visually stunning and intellectually challenging."},
+    {"userName": "ThoughtProvoker", "avatarEmoji": "🤔", "rating": 4.5, "comment": "Had to watch it three times to fully understand. Absolutely worth it."}
+  ],
+  "7": [
+    {"userName": "TechNerd", "avatarEmoji": "💻", "rating": 4.5, "comment": "The Matrix changed everything. Red pill or blue pill?"},
+    {"userName": "ActionHero", "avatarEmoji": "🥋", "rating": 4.5, "comment": "Revolutionary action sequences and philosophical depth. Keanu Reeves is Neo."},
+    {"userName": "CyberPunkFan", "avatarEmoji": "🤖", "rating": 5.0, "comment": "Groundbreaking visual effects and a story that predicted our digital age."}
+  ],
+  "8": [
+    {"userName": "MobMovieFan", "avatarEmoji": "🤵", "rating": 4.5, "comment": "Scorsese's best work. The narration and pacing are perfect."},
+    {"userName": "CrimeDramaLover", "avatarEmoji": "🕵️", "rating": 4.5, "comment": "Ray Liotta's performance is underrated. Authentic and brutal."},
+    {"userName": "ClassicCinema", "avatarEmoji": "🎩", "rating": 5.0, "comment": "As far back as I can remember, I always wanted to love this movie."}
+  ],
+  "9": [
+    {"userName": "FantasyFan", "avatarEmoji": "🧙", "rating": 4.5, "comment": "Epic adventure that brings Tolkien's world to life. Frodo's journey begins."},
+    {"userName": "BookToFilmFan", "avatarEmoji": "📚", "rating": 4.5, "comment": "Peter Jackson did justice to the source material. Visually spectacular."},
+    {"userName": "AdventureLover", "avatarEmoji": "⚔️", "rating": 5.0, "comment": "One ring to rule them all. The fellowship's bond is beautifully portrayed."}
+  ],
+  "10": [
+    {"userName": "StarWarsGeek", "avatarEmoji": "🌟", "rating": 4.0, "comment": "The movie that started it all. Luke's hero journey is timeless."},
+    {"userName": "SpaceOpera", "avatarEmoji": "🚀", "rating": 4.5, "comment": "Revolutionary special effects for its time. The Force is strong with this one."},
+    {"userName": "ClassicSciFi", "avatarEmoji": "👽", "rating": 4.0, "comment": "George Lucas created a universe that continues to inspire generations."}
+  ],
+  "11": [
+    {"userName": "HistoryBuff", "avatarEmoji": "📜", "rating": 4.5, "comment": "Spielberg's most powerful film. A haunting reminder of humanity's capacity for both evil and good."},
+    {"userName": "DramaLover", "avatarEmoji": "😢", "rating": 5.0, "comment": "Liam Neeson's performance is extraordinary. This film changed my perspective on history."},
+    {"userName": "HumanRights", "avatarEmoji": "✊", "rating": 4.5, "comment": "Essential viewing. The list truly was life. Never forget."}
+  ],
+  "12": [
+    {"userName": "PsychThriller", "avatarEmoji": "🎭", "rating": 4.5, "comment": "Fincher's dark masterpiece. The first rule of Fight Club is..."},
+    {"userName": "UndergroundFan", "avatarEmoji": "👊", "rating": 5.0, "comment": "Brad Pitt and Edward Norton have incredible chemistry. Mind-blowing twist."},
+    {"userName": "CultMovieFan", "avatarEmoji": "😈", "rating": 4.5, "comment": "A critique of consumer culture wrapped in an intense thriller. His name was Robert Paulson."}
+  ]
+}

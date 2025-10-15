@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Movies This Month</title>
+    <link rel="stylesheet" th:href="@{/css/movies.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>Free Movies This Month</h1>
+        <div class="movies-grid">
+            <div class="movie-card" th:each="movie : ${movies}">
+                <div class="movie-icon" th:text="${movie.icon}">🎬</div>
+                <h3 th:text="${movie.movieName}">Movie Title</h3>
+                <div class="movie-details">
+                    <p class="director">Director: <span th:text="${movie.director}">Director Name</span></p>
+                    <p class="year">Year: <span th:text="${movie.year}">2023</span></p>
+                    <p class="genre">Genre: <span th:text="${movie.genre}">Drama</span></p>
+                    <p class="duration">Duration: <span th:text="${movie.duration}">120</span> minutes</p>
+                </div>
+                <div class="rating">
+                    <span class="stars">
+                        <span th:each="i : ${#numbers.sequence(1, 5)}" 
+                              th:text="${i <= movie.imdbRating ? '★' : (i - 0.5 == movie.imdbRating ? '⭐' : '☆')}">★</span>
+                    </span>
+                    <span class="rating-score" th:text="${#numbers.formatDecimal(movie.imdbRating, 1, 1)} + '/5'">5.0/5</span>
+                </div>
+                <a th:href="@{/movies/{id}/details(id=${movie.id})}" class="details-btn">View Details</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

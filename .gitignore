@@ -1,0 +1,25 @@
+#folders#
+.idea
+.vscode
+/target
+.classpath
+.project
+.settings/
+/movie-service-utils/jars/
+.amazonq/cli-todo-lists/
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Packaged files #
+#*.jar
+*.war
+*.ear
+*.iml
+

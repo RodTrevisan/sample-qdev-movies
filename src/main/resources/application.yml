@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: movie-service
+  thymeleaf:
+    cache: false # for development
+
+logging:
+  level:
+    com.amazonaws.samples.qdevmovies: DEBUG
