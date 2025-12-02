@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${title} ?: 'Error'">Error</title>
+    <link rel="stylesheet" th:href="@{/css/movies.css}">
+    <style>
+        .error-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 40px;
+            text-align: center;
+            background: rgba(220, 53, 69, 0.1);
+            border: 2px solid rgba(220, 53, 69, 0.3);
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+        }
+        
+        .error-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        
+        .error-title {
+            color: #dc3545;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .error-message {
+            color: #ccc;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .back-btn {
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,123,255,0.3);
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .back-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,123,255,0.5);
+            background: linear-gradient(45deg, #0056b3, #004085);
+        }
+        
+        .search-btn {
+            background: linear-gradient(45deg, #DAA520, #B8860B);
+            color: #000;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(218, 165, 32, 0.3);
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .search-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(218, 165, 32, 0.5);
+            background: linear-gradient(45deg, #B8860B, #9A7209);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-container">
+            <div class="error-icon">🏴‍☠️💀</div>
+            <h1 class="error-title" th:text="${title} ?: 'Shiver Me Timbers!'">Shiver Me Timbers!</h1>
+            <p class="error-message" th:text="${message} ?: 'Something went wrong on our pirate ship, matey!'">
+                Something went wrong on our pirate ship, matey!
+            </p>
+            <div class="error-actions">
+                <a href="/movies" class="back-btn">🏠 Back to Treasure Chest</a>
+                <a href="/movies/search" class="search-btn">🔍 Try Search Again</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
